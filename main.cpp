@@ -1,10 +1,11 @@
 #include <iostream>
+#include <functions.h>
+#include <globals.h>
 
 using namespace std;
 
 int main()
 {
-    int a, b;
     int n;
     cout << "Hello! Work made by Miron & Pushko" << endl;
     cout << "Type first number" << endl;
@@ -19,7 +20,7 @@ int main()
     cin >> n;
     switch (n) {
         case 1:
-            cout << "In Development..." << endl;
+            cout << addition(a, b);
             break;
         case 2:
             cout << "In Development..." << endl;
@@ -34,6 +35,6 @@ int main()
             cout << "Wrong! Choose any option 1-4";
             break;
     };
-    return 0;
+
 }
 

@@ -4,11 +4,13 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    functions.cpp
+    functions.cpp \
+    globals.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
 
 HEADERS += \
-    functions.h
+    functions.h \
+    globals.h
 
