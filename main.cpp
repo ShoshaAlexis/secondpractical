@@ -29,7 +29,7 @@ int main()
             cout << multiplication(a, b) << endl;
             break;
         case 4:
-            cout << "In Development..." << endl;
+            cout << division (a, b) << endl;
             break;
         default:
             cout << "Wrong! Choose any option 1-4";
