@@ -26,7 +26,7 @@ int main()
             cout << substraction (a,b) << endl;
             break;
         case 3:
-            cout << "In Development..." << endl;
+            cout << multiplication(a, b) << endl;
             break;
         case 4:
             cout << "In Development..." << endl;
