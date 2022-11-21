@@ -23,7 +23,7 @@ int main()
             cout << addition(a, b);
             break;
         case 2:
-            cout << "In Development..." << endl;
+            cout << substraction (a,b) << endl;
             break;
         case 3:
             cout << "In Development..." << endl;
